@@ -34,7 +34,16 @@ This repository contains the code for LC-VIT. To reproduce our model, please fol
    - We do not provide code for this step to prevent potential exposure of sensitive patient information.
    
   
-4. **Mutimodal fusion** 
+4. **Multimodal Fusion**  
+   - This step uses Mutual Cross Attention to fuse the clinical and image features.
+   - You can follow the steps outlined in the Notebook to execute the fusion process step-by-step.
+   - The Notebook also documents some of the resulting outputs for your reference.
+
+   **Note**  
+       For environment configuration, you can  refer to [TCformer](https://github.com/zengwang430521/TCFormer).
+  
+   
+
 
 
 
